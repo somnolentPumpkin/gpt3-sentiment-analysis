@@ -1,7 +1,7 @@
-# gpt3-chat-interface
-This is an HTML interface for interacting with GPT-3.
+# gpt3-sentiment-analysis
+This is an HTML interface for sentiment analysis with GPT-3
 
-You can use it from this link: https://somnolentpumpkin.github.io/gpt3-chat-interface/
+You can use it from this link: https://somnolentpumpkin.github.io/gpt3-sentiment-analysis/
 
 You need to have your own OpenAI API token in order to use this.
 
