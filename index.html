@@ -104,7 +104,7 @@
                 xhr.setRequestHeader('Content-Type', 'application/json');
                 xhr.setRequestHeader('Authorization',  `Bearer ${apiToken}`);
                 xhr.send(JSON.stringify({
-                    prompt: `Decide whether a message's sentiment is positive, neutral, or negative. Message:: ${msg}. Sentiment:`,
+                    prompt: `Decide whether a message's sentiment is positive, neutral, or negative. The sentiment should be a single word. Message: ${msg}. Sentiment:`,
                     max_tokens: 3500,
                     temperature: 1
                 }));
